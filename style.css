@@ -1,24 +1,78 @@
 .imagecir{
+  border:1px solid #0f3057;
   border-radius:200%;
+  position:flex;
+  bottom: -4px;
+  align-items:baseline;
+  margin-left: 15%;
+  float: left;
 }
 
-#header_cv{
-  background-color: #d9ecf2;
-  color:black;
-  border-bottom: 5px solid #0f3057 ;
-}
+.Information_contact  {
+    text-align:left;
+    margin-left: 75%;
+    bottom: 100px;
+    position: sticky;
+    top: 0px;
+    border-top:1px solid #0f3057 ;
 
-h2{
+  }
+
+
+#header_cv p{
+  letter-spacing: 0.2em; word-spacing: 0.2em;
+  text-align:left; margin-left: 30%;
+  bottom: 10px;
+  font-size: 150%;
+  }
+
+h2{letter-spacing: 0.1em;
   font-family: 'bold 700', serif;
   text-shadow: 2px 2px;
   color:#0f3057;
   font-size: 200%;
 }
+hr{
+  border-bottom: 1px solid #0f3057;
+}
 body {
+
+  line-height: 1.8;
+
   font-family: 'Semi-bold 600', sans-serif;
   border-style: outset;
-  background-color:#d9ecf2;
   color: black;
   font-size: 110%;
+  background-image: url("https://www.actuall.eu/wp-content/uploads/2016/07/light-grey-background-pattern-i1-1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;}
+
+a {
+     color: blueviolet;
+     text-decoration: none;
+   }
+   a:hover {
+     color: #51c4d3;
+   }
+   a:active {
+     color: cyan;
+   }
+.button{
+  background-color: blueviolet;
+  border-radius:5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.4;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
-#footer_cv{border-bottom: 6px solid #0f3057;}
+.button:hover {opacity: 1}
+#bas_cv p{
+  text-align:50% center;
+  color:#0f3057;
+}
