@@ -1,0 +1,116 @@
+.one, .two, .three {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #385d8a;
+}
+
+.one {
+  background-color: #d99694;
+}
+
+.two {
+  background-color: #c4bd97;
+}
+
+.three {
+  background-color: #558ed5;
+}
+
+.figure1, .figure2, .figure3, .figure4 {
+  margin-left:20px;
+  margin-top: 30px;
+}
+
+.figure3 .one {
+  height: 100px;
+  width: 212px;
+}
+
+.relative .one, .relative .two, .relative .three {
+  position: relative;
+}
+
+.relative .figure1 .two {
+  top: 3px;
+}
+
+.relative .figure1 .three {
+  top: 6px;
+}
+
+.relative .figure2 .two {
+  left: 100px;
+}
+
+.relative .figure2 .three {
+  left: 200px;
+}
+
+.relative .figure3 .two {
+  top: 3px;
+}
+
+.relative .figure3 .three {
+  left:112px;
+  top:-97px;
+}
+
+.relative .figure4 .two {
+  top: 3px;
+}
+
+.relative .figure4 .three {
+  top:-200px;
+  left:104px;
+}
+
+.absolute .figure1, .absolute .figure2, .absolute .figure3, .absolute .figure4 {
+  height: 250px;
+}
+
+.absolute.figure1 , .absolute.figure2 , .absolute.figure3 ,.absolute.figure4 {
+  position: absolute;
+}
+
+.absolute .figure1 .two {
+  top: 103px;
+}
+
+.absolute .figure1 .three {
+  top: 206px;
+}
+.absolute .figure2 .one {
+  top:50px;
+
+}
+.absolute .figure2 .two {
+  top: 150px;
+  left: 100px;
+}
+
+.absolute .figure2 .three {
+  top: 248px;
+  left: 198px;
+}
+.absolute .figure3 .one{
+  top:100px;
+}
+.absolute .figure3 .two {
+  top: 203px;
+}
+
+.absolute .figure3 .three {
+  top: 203px;
+  left:111px;
+}
+.absolute .figure4 .one {
+  top:50px;
+}
+.absolute .figure4 .two {
+  top:155px;
+}
+
+.absolute .figure4 .three {
+  top: 50px;
+  left:105px;
+}
