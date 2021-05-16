@@ -1,0 +1,44 @@
+.one,.two,.three{
+  width: 100px;
+  height: 100px;
+  background: #d99694;
+  border: 2px solid #385d8a;
+  margin-bottom:3px;
+}
+.two{
+  background:#c4bd97;
+}
+.three{
+  background: #558ed5;
+}
+.relative .one, .relative .two, .relative .three {
+  position: relative!important;
+}
+.relative .figure1 .three{
+  margin-bottom:40px;
+}
+.relative .figure2 .two{
+
+  top:-5px;
+  left:103px;
+}
+.relative .figure2 .three{
+  top:-5px;
+  left:204px;
+}
+
+.relative .figure2 .three{
+  margin-bottom:40px;}
+
+.relative .figure3 .one{
+  width: 212px;}
+
+.relative .figure3 .three{
+    top:-106px;
+    left:112px;
+    }
+
+.relative .figure4 .three{
+    top:-214px;
+    left:107px;
+      }
