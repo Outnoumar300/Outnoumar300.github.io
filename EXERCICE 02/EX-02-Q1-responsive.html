@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX-02-Q2 </title>
+    <style>
+    body  {
+      margin-left:30%;
+      color:white;
+      text-align:center;}
+    .square{
+      border: 2px solid #385d8a;
+      width:500px;
+      height:50px;
+      background:#558ed5;
+    }
+    #zero{
+      margin-top:10px;
+      background:#c3bc96;
+    }
+    #footer{
+      margin-top:10px;
+      background:#b2a1c6;
+    }
+    .grid-container,.grid-container2 {
+               margin-top: 10px;
+               display: grid;
+               grid-template-columns: repeat(4, 0fr);
+               grid-gap: 29px;
+               grid-auto-rows: minmax(100px, auto);
+           }
+    .grid-element {
+
+             border: 2px solid #385d8a;
+             width:100px;
+         }
+    #one {
+
+             background-color: #c6d9f1;
+         }
+
+    #two {
+             background-color: #e6b9b8;
+         }
+
+    #three {
+             background-color: #c2d59a;
+         }
+
+    #four {
+             background-color: #f9bf8f;
+         }
+    .grid-container2 {
+              grid-template-columns: repeat(2, 0fr);
+          }
+
+    .grid-box{
+              border: 2px solid #385d8a;
+              background-color: #00aeee;
+              width:232px;
+          }
+
+          @media (min-width: 768px) and (max-width: 1024px) {
+                 .grid-container {
+                   grid-gap:10px;
+                     grid-template-columns: repeat(2, 0fr);
+                     grid-auto-rows: minmax(40px, auto);
+                 }
+                 .grid-element {
+                  width:242px;
+                 }
+                 .grid-container2 {
+                   grid-gap:10px;}
+                   .grid-box {
+                    width:242px;
+                   }
+             }
+
+            @media (min-width: 481px) and (max-width: 767px) {
+                .grid-container {
+                    grid-gap:10px;
+                    grid-template-columns: repeat(2, 0fr);
+                    grid-auto-rows: minmax(40px, auto);
+
+                }
+                .grid-element {
+                 width:243px;
+                }
+
+                .grid-container2 {
+                    grid-gap:10px;
+                    grid-template-columns: repeat(1, 0fr);
+                    grid-auto-rows: minmax(40px, auto);
+                }
+
+                .grid-box {
+                         width:500px;
+                     }
+            }
+
+            @media (min-width: 0px) and (max-width: 480px) {
+
+                .grid-container {
+                    grid-gap:10px;
+                    grid-template-columns: repeat(1, 0fr);
+                    grid-auto-rows: minmax(40px, auto);
+
+                }
+                .grid-element {
+                         width:500px;
+                     }
+                .grid-container2 {
+                    grid-gap:10px;
+                    grid-template-columns: repeat(1, 0fr);
+                    grid-auto-rows: minmax(40px, auto);
+                }
+                .grid-box {
+                          width:500px;
+                }
+            }
+    </style>
+  </head>
+  <body>
+    <div class="square" id="header">En-tete de page</div>
+    <div class="square" id="zero">Section 0</div>
+    <div class="grid-container">
+      <div class="grid-element" id="one" >Section 1</div>
+      <div class="grid-element" id="two" >Section 2</div>
+      <div class="grid-element" id="three">Section 3</div>
+      <div class="grid-element" id="four" >Section 4</div>
+    </div>
+    <div class="grid-container2">
+        <div class="grid-box" id="five">Section 5</div>
+        <div class="grid-box" id="six">Section 6</div>
+    </div>
+   <div class="square" id="footer">Pied de page</div>
+  </body>
+</html>
